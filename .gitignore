@@ -2,5 +2,7 @@ password.txt
 
 secret/
 #이미 추적중인 폴더 불가능
+#뒤에 슬래시 없으면 secret이라는 파일,폴더 전부 무시.
+#뒤에 슬래시 붙으면 secret이라는 폴더+하위항목 무시.
 !secret/play.txt
 #추적불가 폴더 예외처리
